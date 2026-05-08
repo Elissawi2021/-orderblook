@@ -5,8 +5,8 @@ import sys
 from binance import AsyncClient, BinanceSocketManager
 
 # --- الإعدادات (تُجلب من Environment Variables في السيرفر) ---
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+TELEGRAM_TOKEN = os.getenv("8774479062:AAH5bOscrF4HPp9eV2-v1GYTcvVST3Iq_PQ")
+CHAT_ID = os.getenv("690481231")
 SYMBOL = os.getenv("SYMBOL", "BTCUSDT")
 # اسم السيرفر لتعرف من أرسل التنبيه (مثلاً: Render-Frankfurt أو Google-Cloud)
 INSTANCE_NAME = os.getenv("INSTANCE_NAME", "Whale-Radar-Node")
